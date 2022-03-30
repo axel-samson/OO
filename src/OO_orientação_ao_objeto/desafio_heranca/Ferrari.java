@@ -1,4 +1,4 @@
-package desafio_heranca;
+package OO_orientação_ao_objeto.desafio_heranca;
 
 
 public class Ferrari extends Carro {

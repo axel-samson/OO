@@ -1,12 +1,10 @@
-package desafio_heranca;
+package OO_orientação_ao_objeto.desafio_heranca;
 
 public class Carro {
 
     int velocidadeAtual;
 
-    void acelerar ()
-
-    {
+    void acelerar() {
         velocidadeAtual += 5;
     }
 
