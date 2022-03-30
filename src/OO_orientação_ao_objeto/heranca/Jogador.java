@@ -30,9 +30,6 @@ public class Jogador {
                 break;
             }
         }
-
         return true;
     }
-
-
 }
