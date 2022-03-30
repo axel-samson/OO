@@ -1,6 +1,6 @@
 package OO_orientação_ao_objeto.desafio_heranca;
 
-public class CarroTeste {
+public class Teste {
     public static void main(String[] args) {
         Civic c1 = new Civic();
 
