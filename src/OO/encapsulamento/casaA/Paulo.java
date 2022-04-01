@@ -1,7 +1,5 @@
 package OO.encapsulamento.casaA;
 
-import OO.encapsulamento.casaA.Ana;
-
 public class Paulo extends Ana {
 
     void testeAcessos() {
@@ -10,6 +8,6 @@ public class Paulo extends Ana {
             System.out.println(esposa.facoDentroDeCasa);
             System.out.println(esposa.formaDeFalar);
             System.out.println(esposa.todosSabem);
-        }
+        };
     }
 }
