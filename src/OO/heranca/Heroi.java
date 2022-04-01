@@ -1,7 +1,15 @@
 package OO.heranca;
 
 public class Heroi extends Jogador {
-    boolean atacar(Jogador oponente) {
+    public Heroi(int x, int y) {
+        super();
+    }
+
+    public Heroi() {
+        super();
+    }
+
+    public boolean atacar(Jogador oponente) {
         boolean ataque1 = super.atacar(oponente);
         boolean ataque2 = super.atacar(oponente);
         boolean ataque3 = super.atacar(oponente);
@@ -13,14 +21,3 @@ public class Heroi extends Jogador {
 
 
 
-        /*int deltaX = Math.abs(x - oponente.x);
-        int deltaY = Math.abs(y - oponente.y);
-
-        if (deltaX == 0 && deltaY == 1) {
-            oponente.life -= 20;
-        } else if (deltaX == 1 && deltaY == 0) {
-            oponente.life -= 20;
-        } else {
-            return false;
-        }
-        return true;*/
