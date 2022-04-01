@@ -2,10 +2,21 @@ package OO_orientação_ao_objeto.desafio_heranca;
 
 public class Carro {
 
+    final int VELOCIDADE_MAXIMA;
     int velocidadeAtual;
+    int delta = 5; /*prestar sempre atenção nesta variável*/
+
+    Carro(int velocidadeMaxima) {
+        VELOCIDADE_MAXIMA = velocidadeMaxima;
+    }
 
     void acelerar() {
-        velocidadeAtual += 5;
+        if (velocidadeAtual + delta > VELOCIDADE_MAXIMA) {
+            velocidadeAtual = VELOCIDADE_MAXIMA;
+        } else {
+            velocidadeAtual += delta;
+        }
+
     }
 
     void frear() {
