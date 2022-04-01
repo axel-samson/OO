@@ -1,4 +1,4 @@
-package OO_orientação_ao_objeto._3_OO_Relacao_n_para_n;
+package OO._3_Relacao_n_para_n;
 
 import java.util.ArrayList;
 import java.util.List;

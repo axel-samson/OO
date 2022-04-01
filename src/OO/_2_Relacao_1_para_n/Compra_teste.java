@@ -1,4 +1,4 @@
-package OO_orientação_ao_objeto._2_OO_Relacao_1_para_n;
+package OO._2_Relacao_1_para_n;
 
 public class Compra_teste {
 

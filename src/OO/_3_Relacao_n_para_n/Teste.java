@@ -1,6 +1,4 @@
-package OO_orientação_ao_objeto._3_OO_Relacao_n_para_n;
-
-import org.w3c.dom.ls.LSOutput;
+package OO._3_Relacao_n_para_n;
 
 public class Teste {
     public static void main(String[] args) {

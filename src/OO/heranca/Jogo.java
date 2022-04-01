@@ -1,4 +1,4 @@
-package OO_orientação_ao_objeto.heranca;
+package OO.heranca;
 
 public class Jogo {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package OO_orientação_ao_objeto.heranca;
+package OO.heranca;
 
 public class Jogador {
     int life = 100;

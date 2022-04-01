@@ -1,4 +1,4 @@
-package OO_orientação_ao_objeto._1_OO_Relacao_1_para_1;
+package OO._1_Relacao_1_para_1;
 
 public class CarroTeste {
     public static void main(String[] args) {
