@@ -15,7 +15,7 @@ public class Teste {
         c1.desligarAr();
         c1.acelerar();
         System.out.println(c1 + " " + c1.getClass().getSimpleName() + " aceleração com ar desativado");
-        /* -----------------------------------------------*/
+
         System.out.println();
         Ferrari c2 = new Ferrari(340);
 
@@ -26,7 +26,6 @@ public class Teste {
         c2.ligarAr();
         c2.acelerar();
         System.out.println(c2 + " " + c2.getClass().getSimpleName() + " aceleração com ar e turbo ativado");
-
 
         c2.desligarTurbo();
         c2.acelerar();
