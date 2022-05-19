@@ -1,17 +1,42 @@
 package OO.desafio_heranca;
 
-public class Civic extends Carro {
+import OO.desafio_heranca.Teste.Luxo;
+
+public class Civic extends Carro implements Luxo {
+    boolean ligarAr;
+
     public Civic() {
-    super(205);
+        super(205);
     }
 
     public Civic(int velocidadeMaxima) {
         super(velocidadeMaxima);
-        delta = 38;
+        setDelta(38);
+//        delta = 38;
     }
 
-/*    @Override
+    @Override
+    public void ligarAr() {
+        ligarAr = true;
+
+    }
+
+    @Override
+    public void desligarAr() {
+        ligarAr = false;
+
+    }
+
+    @Override
+    public int getDelta() {
+
+        if (ligarAr) {
+            return 30;
+        } else return 38;
+    }
+}
+    /*    @Override
     void acelerar() {
         velocidadeAtual += 38;
     }*/
-}
+
